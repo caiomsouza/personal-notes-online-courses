@@ -68,6 +68,41 @@ In addition to the Spark Summit EU presentation, a good webinar that talks about
 
 The webinar includes notebooks that utilize numpy, matplotlib, pandas, ggplot, as well as a separate one on sklearn integration.
 
+### The Structure Spectrum
+1. Structured Data (Relational Databases, Formatted Messages)
+When working with structured data, the schema must be statically defined in advance.
+
+2. Semi-Structured Data (Excel, CSV, XML)
+An Excel spreadsheet, CSV bank statement, and collection of photo metadata are all examples of semi-structured data. The contents of a user's Facebook posts and a collection of photos are examples of unstructured data.
+
+eXtensible Markup Language documents are semi-structured documents, where the scheme is often determined at a later time.
+
+When working with semi-structured data, the schema can either be statically defined in advance, or it can be dynamically infered as the data is being loaded into the system.
+
+3. Unstructured Data (Facebook posts, Instagram Images, Blog Posts, User Generated Content, News articles)
+
+###Big Data examples
+Facebook's daily logs: 60 TB
+1,000 genomes project: 200 TB
+Google web index: 10+ PB
+Cost of 1 TB of disk: ~$35
+Time to read 1 TB from disk: 3 hours(100 MB/s)
+
+###Real Cases using Apache Spark
+https://databricks.com/blog/2016/05/24/genome-sequencing-in-a-nutshell.html
+http://cdn2.hubspot.net/hubfs/438089/notebooks/Samples/Miscellaneous/Genome_Variant_Analysis_using_k-means_ADAM_and_Apache_Spark.html
+https://github.com/bigdatagenomics/adam
+http://www-01.ibm.com/software/ebusiness/jstart/portfolio/usacycling.html
+https://spark-summit.org/2016/events/keynote-4-day-3/
+
+
+###Apache Spark Components
+* Apache Spark Core
+* Spark SQL
+* Spark Streaming
+* MLlib & ML (Machine Learning)
+* GraphX (Graph)
+
 
 ###My course tasks:
 Test notebooks 1:<BR>
