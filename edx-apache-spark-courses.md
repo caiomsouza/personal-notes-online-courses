@@ -89,11 +89,16 @@ Cost of 1 TB of disk: ~$35
 Time to read 1 TB from disk: 3 hours(100 MB/s)
 
 ###Real Cases using Apache Spark
-https://databricks.com/blog/2016/05/24/genome-sequencing-in-a-nutshell.html
-http://cdn2.hubspot.net/hubfs/438089/notebooks/Samples/Miscellaneous/Genome_Variant_Analysis_using_k-means_ADAM_and_Apache_Spark.html
-https://github.com/bigdatagenomics/adam
-http://www-01.ibm.com/software/ebusiness/jstart/portfolio/usacycling.html
-https://spark-summit.org/2016/events/keynote-4-day-3/
+ADAM open source genomics pipeline see and run your own ADAM genomics analysis on data from the 1000 Genomes project using this notebook.<BR>
+https://databricks.com/blog/2016/05/24/genome-sequencing-in-a-nutshell.html<BR>
+http://cdn2.hubspot.net/hubfs/438089/notebooks/Samples/Miscellaneous/Genome_Variant_Analysis_using_k-means_ADAM_and_Apache_Spark.html<BR>
+https://github.com/bigdatagenomics/adam<BR><BR>
+
+Capital One also uses Spark and graph analysis to detect fraudulent applications.<BR>
+https://spark-summit.org/2016/events/keynote-4-day-3/<BR><BR>
+
+Another example of Big Data processing is IBM's jStart team's work with the USA Cycling Women’s Team Pursuit team. The jStart team is using Spark Streaming to analyze streaming data from the riders' power meter, heart rate monitor and wearable muscle oxygen sensor, and provide coaches and riders with real-time performance metrics, such as W-prime depletion and matches burned.<BR>
+http://www-01.ibm.com/software/ebusiness/jstart/portfolio/usacycling.html<BR>
 
 
 ###Apache Spark Components
@@ -102,6 +107,8 @@ https://spark-summit.org/2016/events/keynote-4-day-3/
 * Spark Streaming
 * MLlib & ML (Machine Learning)
 * GraphX (Graph)
+
+Python, Scala, Java, and R are languages that are fully supported by Apache Spark, however they are not part of Apache Spark. The core Apache Spark runtime, Spark SQL, MLlib, ML Pipelines, and GraphX are all components of Apache Spark.
 
 
 ###My course tasks:
